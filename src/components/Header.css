@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* displays the flex items with space between the lines: */
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+.header .logo {
+    font-size: 35px;
+    font-family: "Poppin";
+    color: rgb(10, 10, 14);
+    font-weight: 700;
+}
+
+
+.header-right {
+    display: flex;
+    justify-content: space-between; /* displays the flex items with space between the lines: */
+    align-items: center;
+}
+
+
+.header-right button {
+    margin: 30px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.active, .header-right button:hover {
+    background-color: #666;
+    color: white;
+  }
+
